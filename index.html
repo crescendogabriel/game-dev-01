@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Boogle | GAME DEV 1</title>
+<link rel="stylesheet" href="assets/css/game.css" />
+</head>
+<body>
+<div class="add_player">
+    <div class="center">
+        <img class="logo" src="assets/img/googlelogo_color_272x92dp.png" />
+        <span>"Feeling lucky? then guess the <b>word</b> to complete the search!"</span>
+        <h2>Add players:</h2> 
+        <textarea class="player_names"></textarea>
+        <button>Start Game</button>
+    </div>
+</div>
+
+<div class="app">
+    <div class="left">
+        <img class="logo" src="assets/img/googlelogo_color_272x92dp.png" />
+        <div class="question"></div>
+        <div class="clue">
+           <h2>Clue:</h2> <p></p>
+        </div>
+        <div class="turn">
+            <h2></h2> <input type="text" class="pans" maxlength="7" />
+        </div>
+        <div class="answers"></div>
+    </div>
+    <div class="right">
+        <h2>Players</h2>
+        <div class="players"></div>
+    </div>
+</div>
+    
+<script src="/assets/js/jquery/jquery.min.js"></script>
+<script  type="module"  src="/assets/js/game/app.js"></script>
+</body>
+</html>
